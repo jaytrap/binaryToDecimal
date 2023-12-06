@@ -1,0 +1,13 @@
+Initialize dc_num to 0
+Display "Enter a binary number: "
+Read input as bin_num
+if bin_num is empty
+    Display "Please enter a valid binary number."
+else
+    Iterate through the digits in the binary number form the right
+        if the digit is not 0 and digit is not 1
+            Display "Enter a valid binary number."
+            exit()
+        el the digit is 1
+            Add 2 exponent digits position to dc_num
+    Display "In decimal: dc_num"
